@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245469054790",
+    "project_id": "ichatapplication-e03ae",
+    "storage_bucket": "ichatapplication-e03ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245469054790:android:3e381223ff083ad0a04747",
+        "android_client_info": {
+          "package_name": "com.num.ichat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0n3Ztp_MGFp4v0VzIglh6k7a9ojFEFKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
