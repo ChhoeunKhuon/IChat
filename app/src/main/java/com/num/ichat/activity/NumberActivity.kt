@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
-import com.num.ichat.R
+
 import com.num.ichat.databinding.ActivityNumberBinding
 
 class NumberActivity : AppCompatActivity() {
@@ -15,9 +15,14 @@ class NumberActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityNumberBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_number)
+        setContentView(binding.root)
 
-
+//        auth = FirebaseAuth.getInstance()
+//
+//        if(auth.currentUser == null){
+//            startActivity(Intent(this, NumberActivity::class.java))
+//            finish()
+//        }
 
         binding.button.setOnClickListener {
             if(binding.phoneNumber.text!!.isEmpty()){

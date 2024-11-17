@@ -53,9 +53,15 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    implementation("com.google.android.material:material:1.9.0")
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-auth")
+
     implementation("com.google.firebase:firebase-database")
     implementation("com.google.firebase:firebase-storage")
+
     implementation ("de.hdodenhof:circleimageview:3.1.0")
+    implementation ("com.google.android.gms:play-services-safetynet:18.1.0")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
+
 }
