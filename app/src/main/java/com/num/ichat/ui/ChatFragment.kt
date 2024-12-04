@@ -29,7 +29,7 @@ class ChatFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentChatBinding.inflate(layoutInflater)
 
-        database = FirebaseDatabase.getInstance()
+        database = FirebaseDatabase.getInstance("https://ichatapplication-e03ae-default-rtdb.asia-southeast1.firebasedatabase.app/")
         userList = ArrayList()
 
 
